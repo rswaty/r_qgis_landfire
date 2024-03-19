@@ -1,0 +1,22 @@
+project:
+  type: book
+  output-dir: docs
+
+
+book:
+  title: "LANDFIRE-Powered Landscape Assessments"
+  author: "The Nature Conservancy's LANDFIRE team"
+  date: "1/9/2024"
+  chapters:
+    - index.qmd
+    - process_data.qmd
+
+
+format:
+  html:
+    css: style.css
+  pdf:
+    documentclass: scrreprt
+
+
+

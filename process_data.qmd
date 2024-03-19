@@ -1,0 +1,27 @@
+---
+title: "Process LANDFIRE data using R"
+format: html
+---
+
+## General Approach
+
+1. Crop and mask LANDFIRE rasters, build attribute tables, plus write rasters and color files for 5 key LANDFIRE datasets:
+    * Biophysical Settings
+    * Existing Vegetation Cover
+    * Existing Vegetation Height
+    * Existing Vegetation Type
+    * Succession Classes
+2. Make starter charts
+3. Read in and make maps of datasets, plus make a Mean Fire Return Interval Map
+
+## Crop and mask LANDFIRE rasters, build attribute tables, plus write rasters and color files
+
+We will be working through code largely written by [Myles Walimaa](https://conservationdatalab.org/author/myles-walimaa/).  We will do this together.  A few notes about this code:
+
+1. It does use a fair number of packages.  We will likely be in a package installing and loading vortex for a while.
+2. The way the code is written is not super efficient or modular.  Instead it is written for a more 'manual' approach which can work well for getting to know the code and understanding it the first time through.
+
+
+
+
+    

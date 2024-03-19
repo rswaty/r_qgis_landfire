@@ -1,0 +1,48 @@
+# Background {.unnumbered}
+
+[LANDFIRE](https://landfire.gov/index.php) products are extremely useful for natural resource managers, allowing users to complete many tasks, including:
+
+![Historical ecosystems map.](images/bps.jpg){style="float:right; margin-left: 5%; fig-align:right; width:25%;" fig-alt="\"Historical ecosystems map of a large region in the western United States."}
+
+-   Mapping and quantifying historical ecosystems (see map below made with [LANDFIRE's Biophysical Settings data](https://landfire.gov/bps.php))
+-   Mapping and quantifying existing vegetation type, height and cover
+-   Comparing reference and current amounts of ecosystem succession classes
+
+While useful, effectively working with LANDFIRE products can be intimidating due to terminology, GIS processing and data wrangling often required.
+
+Additionally, the "fire-hose" of information can pose a problem. Where is a user to start?
+
+## Goals
+
+Often a good way to start learning something is to jump in and take on a meaningful project. Here we show you how to take a shapefile of your area of interest, then:
+
+-   Download and process multiple LANDFIRE datasets
+-   Bring LANDFIRE data into ArcGIS pro, explore ways to make maps that follow Universal Design principles (i.e., easier for everyone to read)
+-   Quantify and make charts of attributes of interest
+-   Understand the basics of Biophysical Settings and Models
+
+## Prerequsites
+
+### The following software
+
+-  R
+-  R-Studio
+-  QGIS
+
+### Skills
+
+- Basic knowledge of running scripts in R
+- Some experience with the Tidyverse package
+- Ability to load and symbolize a dataset in QGIS, and ideally familiarity with the layout manager
+
+
+### Other
+
+-   Internet access
+-   Space to store data
+-   X# hours
+
+
+## Do this
+
+
